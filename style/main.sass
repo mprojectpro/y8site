@@ -1,11 +1,18 @@
 
 @import "../../bower_components/normalize.css/normalize.css"
-
-
-
+@font-face 
+	font-family: "Lemon Tuesday"
+	src: url("../fonts/Lemon Tuesday.otf")
+@font-face 
+	font-family: "Akrobat-Regular"
+	src: url("../fonts/Akrobat-Regular.otf")
+@font-face 
+	font-family: "Akrobat-Light"
+	src: url("../fonts/Akrobat-Light.otf")
 body
 	margin: 0
 	padding: 0
+	overflow: auto
 h1,
 p
 	margin: 0
@@ -15,6 +22,7 @@ p
 	background-size: cover
 	background-position: center center
 	overflow: hidden
+	height: 100vh
 	.logo
 		position: absolute
 		right: 10%
@@ -26,6 +34,26 @@ p
 			font-size: 3em
 		p
 			font-size: 2em
+.content-first-block
+	display: block
+	text-align: center
+	color: #0d0d0d
+	.left-first-block
+		padding-top: 160px
+		h1
+			font-family: "Lemon Tuesday"
+			font-size: 80px
+			padding-bottom: 20px
+		p
+			font-family: "Akrobat-Regular"
+			font-size: 26px
+	.right-first-block
+		padding-top: 80px
+		p
+			font-family: "Akrobat-Light"
+			font-size: 20px
+
+
 
 
 
